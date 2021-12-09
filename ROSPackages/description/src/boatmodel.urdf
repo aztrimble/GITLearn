@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot name="toy_boat">
+    <link name="mystaticturtle">
+        <visual>
+            <geometry>
+                <mesh 
+                    scale = "0.1 0.1 0.1"
+                    filename="file:testing.stl"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>
